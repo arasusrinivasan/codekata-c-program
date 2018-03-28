@@ -6,14 +6,14 @@ int main()
     printf("Enter a number: ");
     scanf("%lf", &number);
 
-    if (number <= 0.0)
+    if (number <= 0)
     {
-        if (number == 0.0)
+        if (number == 0)
             printf("You entered 0.");
         else
-            printf("You entered a negative number.");
+            printf(" negative ");
     }
     else
-        printf("You entered a positive number.");
+        printf(" positive ");
     return 0;
 }
